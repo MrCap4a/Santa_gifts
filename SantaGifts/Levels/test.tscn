@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://cqeh2ux274fmr"]
+
+[ext_resource type="Script" path="res://Scripts/level.gd" id="1_ecn4i"]
+[ext_resource type="PackedScene" uid="uid://8ujap2e52ud7" path="res://Objects/santa.tscn" id="1_ki31b"]
+
+[node name="Test" type="Node2D"]
+script = ExtResource("1_ecn4i")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -1454.0
+offset_top = -603.0
+offset_right = 1487.0
+offset_bottom = 1091.0
+color = Color(0.635294, 0.898039, 0.992157, 1)
+
+[node name="Santa" parent="." instance=ExtResource("1_ki31b")]
+position = Vector2(0, 0)
+
+[node name="RoofTimer" type="Timer" parent="."]
+one_shot = true
+
+[connection signal="timeout" from="RoofTimer" to="." method="_on_roof_timer_timeout"]

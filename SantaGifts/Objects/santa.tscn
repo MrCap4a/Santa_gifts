@@ -1,0 +1,57 @@
+[gd_scene load_steps=8 format=3 uid="uid://8ujap2e52ud7"]
+
+[ext_resource type="Script" path="res://Scripts/santa.gd" id="1_jtu1e"]
+[ext_resource type="Texture2D" uid="uid://ddqx7e7cywg8m" path="res://Sprites/Santa.png" id="1_krkot"]
+[ext_resource type="PackedScene" uid="uid://chi4v3o3ckoro" path="res://Objects/ui.tscn" id="3_p0fqh"]
+[ext_resource type="Texture2D" uid="uid://y553uj7w3cht" path="res://Sprites/Gift1.png" id="4_npt80"]
+[ext_resource type="Texture2D" uid="uid://c54nwrd6x4l0w" path="res://Sprites/Gift2.png" id="5_hxmmf"]
+[ext_resource type="Texture2D" uid="uid://0wvy41yuchf8" path="res://Sprites/Gift3.png" id="6_jkdph"]
+[ext_resource type="Texture2D" uid="uid://b72nn3kf2eccl" path="res://Sprites/Gift4.png" id="7_fxrqs"]
+
+[node name="Santa" type="CharacterBody2D"]
+position = Vector2(-1, -4)
+script = ExtResource("1_jtu1e")
+
+[node name="Santa" type="Sprite2D" parent="."]
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("1_krkot")
+
+[node name="Spawnpoint" type="Node2D" parent="."]
+position = Vector2(-318, 52)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(0, 238)
+zoom = Vector2(0.7, 0.7)
+
+[node name="UI" parent="." instance=ExtResource("3_p0fqh")]
+offset_left = 1.0
+offset_top = -533.0
+offset_right = 1.0
+offset_bottom = -533.0
+
+[node name="DieTimer" type="Timer" parent="."]
+one_shot = true
+
+[node name="Gift1" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(0, -333)
+scale = Vector2(0.12, 0.12)
+texture = ExtResource("4_npt80")
+
+[node name="Gift2" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(0, -333)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("5_hxmmf")
+
+[node name="Gift3" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(0, -333)
+scale = Vector2(0.08, 0.08)
+texture = ExtResource("6_jkdph")
+
+[node name="Gift4" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(0, -333)
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("7_fxrqs")

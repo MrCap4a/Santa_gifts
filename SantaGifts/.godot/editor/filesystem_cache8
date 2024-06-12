@@ -1,0 +1,33 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1718197545
+data.txt::TextFile::-1::1717416000::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1718197466::0::1::::<><>::
+icon.svg::CompressedTexture2D::4917323923762094909::1717166602::1717166608::1::::<><>::
+::res://Levels/::1718196564
+test.tscn::PackedScene::5904594699263926469::1717415998::0::1::::<><>::res://Scripts/level.gd<>uid://8ujap2e52ud7::::res://Objects/santa.tscn
+::res://Objects/::1718196564
+gift.tscn::PackedScene::8849596070482358413::1717415998::0::1::::<><>::res://Scripts/Gift.gd<>uid://y553uj7w3cht::::res://Sprites/Gift1.png<>uid://c54nwrd6x4l0w::::res://Sprites/Gift2.png<>uid://0wvy41yuchf8::::res://Sprites/Gift3.png<>uid://b72nn3kf2eccl::::res://Sprites/Gift4.png
+roof.tscn::PackedScene::3558104880376540937::1717415998::0::1::::<><>::res://Scripts/Roof.gd<>uid://b3wdmf18ic4bv::::res://Sprites/roof1.png
+santa.tscn::PackedScene::2358066677854049998::1717415998::0::1::::<><>::res://Scripts/santa.gd<>uid://ddqx7e7cywg8m::::res://Sprites/Santa.png<>uid://chi4v3o3ckoro::::res://Objects/ui.tscn<>uid://y553uj7w3cht::::res://Sprites/Gift1.png<>uid://c54nwrd6x4l0w::::res://Sprites/Gift2.png<>uid://0wvy41yuchf8::::res://Sprites/Gift3.png<>uid://b72nn3kf2eccl::::res://Sprites/Gift4.png
+ui.tscn::PackedScene::5282478082903477496::1717415998::0::1::::<><>::uid://ycxgx5xfgbgn::::res://Other resources/lifehack-sans-3.otf<>uid://bqho23j2r44bd::::res://Sprites/heart.png
+::res://Other resources/::1718196564
+lifehack-sans-3.otf::FontFile::1690069463851074237::1717237044::1717237048::1::::<><>::
+::res://Scripts/::1718196564
+data.gd::GDScript::-1::1717361422::0::1::::<>Node<>::
+event_bus.gd::GDScript::-1::1717357532::0::1::::<>Node<>::
+Gift.gd::GDScript::-1::1717415994::0::1::::<>RigidBody2D<>::
+level.gd::GDScript::-1::1717185786::0::1::::<>Node2D<>::
+Roof.gd::GDScript::-1::1717185482::0::1::::<>StaticBody2D<>::
+santa.gd::GDScript::-1::1717399658::0::1::::<>CharacterBody2D<>::
+::res://Sprites/::1718196565
+Gift1.png::CompressedTexture2D::1748336157801580169::1717166948::1717167134::1::::<><>::
+Gift2.png::CompressedTexture2D::6939203138738531852::1717166968::1717167134::1::::<><>::
+Gift3.png::CompressedTexture2D::1801456881901270711::1717167058::1717167134::1::::<><>::
+Gift4.png::CompressedTexture2D::4689015902061744967::1717167132::1717167134::1::::<><>::
+heart.png::CompressedTexture2D::3524792566321891633::1717360760::1717360794::1::::<><>::
+roof1.png::CompressedTexture2D::4397328500944318427::1717169778::1717169992::1::::<><>::
+roof2.png::CompressedTexture2D::3427014709154828777::1717169868::1717169998::1::::<><>::
+roof3.png::CompressedTexture2D::1286395979617793530::1717169940::1717169992::1::::<><>::
+roof4.png::CompressedTexture2D::2119718895184837217::1717169958::1717169992::1::::<><>::
+roof5.png::CompressedTexture2D::5372110498826572703::1717169986::1717169992::1::::<><>::
+Santa.png::CompressedTexture2D::7404312521947899638::1717166714::1717169616::1::::<><>::

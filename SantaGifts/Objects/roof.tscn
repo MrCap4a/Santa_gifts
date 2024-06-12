@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://bqxtp5p70mw5f"]
+
+[ext_resource type="Script" path="res://Scripts/Roof.gd" id="1_0bmwg"]
+[ext_resource type="Texture2D" uid="uid://b3wdmf18ic4bv" path="res://Sprites/roof1.png" id="2_4hj4s"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vuukx"]
+size = Vector2(55, 64)
+
+[node name="Roof" type="StaticBody2D"]
+script = ExtResource("1_0bmwg")
+
+[node name="Roof1" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_4hj4s")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(270.5, -154)
+shape = SubResource("RectangleShape2D_vuukx")
